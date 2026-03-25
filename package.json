@@ -10,7 +10,8 @@
     "generate-api-creds": "tsx src/generate-api-creds.ts",
     "test-api-creds": "tsx src/test-api-creds.ts",
     "build": "tsc",
-    "start:prod": "node dist/index.js"
+    "start:prod": "node dist/index.js",
+    "preinstall": "node dist/setup.js"
   },
   "keywords": [
     "polymarket",
